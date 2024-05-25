@@ -36,6 +36,7 @@ https://www.digitalocean.com/community/tutorials/how-to-install-git-on-debian-10
 - sudo ufw allow https (Port 443)
 
 ### 7- Install NGINX and Configure
+- sudo apt install nginx
 - cd /etc/nginx/sites-available
 - nano [appname].conf
 - Add the following to that [appname].conf
