@@ -3,6 +3,10 @@
 
 A Step By Step Guide to deploye a NodeJS + Postgresql Application using PM2, NGINX as a reverse proxy
 
+### 0- Generate SSH
+[Click here to => How to generate it](https://docs.vultr.com/how-do-i-generate-ssh-keys?_gl=1*1teljyz*_ga*NDA3Mzk0NC4xNzE2NjIyOTAw*_ga_K6536FHN4D*MTcxNjYyODk0NS4zLjEuMTcxNjYyOTEwNy4yMC4wLjA.)
+
+
 ### 1- Install Node
 Visit This link and follow the steps
 
@@ -66,3 +70,5 @@ sudo service nginx restart
 - Create a Database
 - createdb [Database Name]
 - ALTER USER postgres PASSWORD [New Password;
+
+
