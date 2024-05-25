@@ -64,7 +64,7 @@ sudo ln -s /etc/nginx/sites-available/[appname].conf /etc/nginx/sites-enabled/
 sudo service nginx restart
 ```
 ### 8- Install Postgresql
-- [Click Here To See The Guideline](https://www.digitalocean.com/community/tutorials how-to-install-postgresql-on-ubuntu-20-04-quickstart)
+- [Click Here To See The Guideline](https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart)
 ### 9- Change Postgresql user default password & Create Database
 - sudo -i -u postgres
 - psql
