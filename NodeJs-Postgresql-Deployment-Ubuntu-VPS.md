@@ -69,7 +69,7 @@ sudo service nginx restart
 - sudo -i -u postgres
 - psql
 - Create a Database
-- createdb [Database Name]
-- ALTER USER postgres PASSWORD [New Password;
+- create database [Database Name]
+- ALTER USER postgres PASSWORD 'NewPassword';
 
 
