@@ -1,6 +1,5 @@
 {
-  // More minimal UI
-  "window.zoomLevel": 1,
+  // Minimal
   "editor.minimap.enabled": false,
   "editor.glyphMargin": false,
   "editor.folding": false,
@@ -8,44 +7,22 @@
   "workbench.sideBar.location": "right",
   "workbench.editor.showTabs": "multiple",
   "workbench.editor.pinnedTabSizing": "compact",
-  "workbench.editor.tabSizing": "shrink",
+  "workbench.editor.tabSizing": "fit",
   "workbench.welcomePage.walkthroughs.openOnInstall": false,
-  "breadcrumbs.enabled": false,
   "editor.lightbulb.enabled": "on",
   "editor.overviewRulerBorder": false,
   "editor.renderLineHighlight": "line",
   "editor.renderControlCharacters": false,
-  "editor.gotoLocation.multipleReferences": "goto",
-  "editor.gotoLocation.multipleDefinitions": "goto",
-  "editor.gotoLocation.multipleDeclarations": "goto",
-  "workbench.editor.enablePreviewFromQuickOpen": false,
-  "editor.gotoLocation.multipleImplementations": "goto",
-  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+  "window.title": "",
 
-  "volar.icon.splitEditors": false,
-  // Theme-specific UI
-  "diffEditor.renderSideBySide": false,
-  "editor.copyWithSyntaxHighlighting": false,
-  "editor.detectIndentation": true,
-  "editor.multiCursorModifier": "ctrlCmd",
-  "files.insertFinalNewline": true,
-  "window.nativeFullScreen": true,
-  "window.newWindowDimensions": "inherit",
-  "workbench.editor.enablePreview": false,
-  "workbench.editor.highlightModifiedTabs": true,
+  // Themese
 
   // Code
-  // Include "-" in word selection.
-  "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
   "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.tabCompletion": "on",
   "explorer.openEditors.visible": 1,
-
-  "window.title": "",
-  "workbench.colorTheme": "Palenight Italic",
   "editor.stickyScroll.enabled": false,
-  "workbench.iconTheme": "bearded-icons",
   "editor.formatOnSave": true,
   "[vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -60,5 +37,16 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "workbench.startupEditor": "none",
-  "workbench.activityBar.location": "hidden"
+  "workbench.activityBar.location": "hidden",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "breadcrumbs.enabled": false,
+  "workbench.iconTheme": "bearded-icons",
+  "workbench.colorTheme": "Palenight (Mild Contrast)"
 }
