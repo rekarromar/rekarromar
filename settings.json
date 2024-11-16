@@ -46,7 +46,15 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "breadcrumbs.enabled": false,
   "workbench.iconTheme": "bearded-icons",
-  "workbench.colorTheme": "Palenight (Mild Contrast)"
+  "workbench.colorTheme": "Palenight (Mild Contrast)",
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "search.quickOpen.includeHistory": false
 }
