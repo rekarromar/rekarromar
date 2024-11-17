@@ -95,4 +95,30 @@ sudo service nginx restart
 - create database [Database Name]
 - ALTER USER postgres PASSWORD 'NewPassword';
 
+### 9- Scheduling A Cron Job to backup database
+1-Create a script
+backup_dir="/backups"
 
+# Create directory if it doesn't exist
+mkdir -p "$backup_dir"
+
+export PGPASSWORD=rekar123
+# Use pg_dump to backup the database
+/usr/bin/pg_dump -Fc -U "postgres" -h "localhost" -d "rekar" > "$backup_dir/$(date "+%F_%H-%M").sql.dump"
+
+# Compress the backup file
+gzip "$backup_dir/$(date "+%F_%H-%M").sql.dump"
+
+2-Give Permission
+chmod +x backup-tool
+
+3- Open the crontab
+run => crontab -e
+select nano editor
+Add the following to the end to run the script at the given times
+
+0 0 * * * /root/apps/cars-backup >/dev/null 2>&1
+0 12 * * * /root/apps/cars-backup >/dev/null 2>&1
+
+### 9- Restoring a database
+sudo -u postgres psql -U postgres -d rekar < backup.sql
