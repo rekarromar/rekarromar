@@ -99,14 +99,12 @@ sudo service nginx restart
 1-Create a script
 backup_dir="/backups"
 
-# Create directory if it doesn't exist
 mkdir -p "$backup_dir"
 
 export PGPASSWORD=rekar123
-# Use pg_dump to backup the database
+
 /usr/bin/pg_dump -Fc -U "postgres" -h "localhost" -d "rekar" > "$backup_dir/$(date "+%F_%H-%M").sql.dump"
 
-# Compress the backup file
 gzip "$backup_dir/$(date "+%F_%H-%M").sql.dump"
 
 2-Give Permission
