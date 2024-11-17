@@ -97,6 +97,7 @@ sudo service nginx restart
 
 ### 9- Scheduling A Cron Job to backup database
 1-Create a script
+
 backup_dir="/backups"
 
 mkdir -p "$backup_dir"
