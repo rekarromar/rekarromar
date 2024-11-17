@@ -1,5 +1,5 @@
 
-# NodeJS + Postgresql Deployment
+# NodeJS + Postgresql
 
 A Step By Step Guide to deploye a NodeJS + Postgresql Application using PM2, NGINX as a reverse proxy
 
