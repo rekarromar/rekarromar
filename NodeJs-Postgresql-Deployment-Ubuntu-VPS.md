@@ -53,6 +53,29 @@ server {
                 proxy_cache_bypass $http_upgrade;
            }
 }
+
+server {
+        listen 80;
+        server_name server_name;
+           location / {
+                proxy_pass http://localhost:3000;
+                proxy_http_version 1.1;
+                proxy_set_header Upgrade $http_upgrade;
+                proxy_set_header Connection 'upgrade';
+                proxy_set_header Host $host;
+                proxy_cache_bypass $http_upgrade;
+           }
+
+           location /api {
+                proxy_pass http://localhost:3001;
+                proxy_http_version 1.1;
+                proxy_set_header Upgrade $http_upgrade;
+                proxy_set_header Connection 'upgrade';
+                proxy_set_header Host $host;
+                proxy_cache_bypass $http_upgrade;
+           }
+}
+
 ```
 - Save it
 - Then link that config file to sites-enabled running the following command
