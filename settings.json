@@ -1,60 +1,79 @@
 {
-  // Minimal
-  "editor.minimap.enabled": false,
-  "editor.glyphMargin": false,
-  "editor.folding": false,
-  "editor.lineNumbers": "off",
-  "workbench.sideBar.location": "right",
-  "workbench.editor.showTabs": "multiple",
-  "workbench.editor.pinnedTabSizing": "compact",
-  "workbench.editor.tabSizing": "fit",
-  "workbench.welcomePage.walkthroughs.openOnInstall": false,
-  "editor.lightbulb.enabled": "on",
-  "editor.overviewRulerBorder": false,
-  "editor.renderLineHighlight": "line",
-  "editor.renderControlCharacters": false,
-  "window.title": "",
-
-  // Themese
-
-  // Code
-  "editor.cursorBlinking": "smooth",
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.tabCompletion": "on",
-  "explorer.openEditors.visible": 1,
   "editor.stickyScroll.enabled": false,
-  "editor.formatOnSave": true,
+  "workbench.iconTheme": "bearded-icons",
   "[vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "files.autoSave": "afterDelay",
+  "editor.minimap.enabled": false,
+  "search.quickOpen.includeHistory": false,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "vue.server.hybridMode": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "workbench.startupEditor": "none",
+  "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "Night Owl (No Italics)",
+  "window.confirmBeforeClose": "always",
   "workbench.activityBar.location": "hidden",
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "workbench.editor.revealIfOpen": true,
+  "chat.editing.alwaysSaveWithGeneratedChanges": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "files.exclude": {
+    "node_modules": true,
+    "dist": true,
+    "build": true,
+    "output": true,
+    ".next": true,
+    ".nuxt": true,
+    "public": true,
+    "*.map": true,
+    "package.json": true,
+    "package-lock.json": true,
+    "yarn.lock": true,
+    "npm-debug.log": true,
+    "yarn-error.log": true,
+    ".env": true,
+    ".env.*": true,
+    ".DS_Store": true,
+    "*.log": true,
+    ".vscode": true,
+    ".idea": true,
+    "*.sublime-*": true,
+    "coverage": true,
+    "*.lcov-report": true,
+    "*.nyc_output": true,
+    "*.bak": true,
+    "*.swp": true,
+    "*.tmp": true,
+    "*.seed": true
   },
-  "security.workspace.trust.untrustedFiles": "open",
-
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "workbench.iconTheme": "bearded-icons",
-  "workbench.colorTheme": "Palenight (Mild Contrast)",
-  "[dart]": {
-    "editor.formatOnSave": true,
-    "editor.formatOnType": true,
-    "editor.rulers": [80],
-    "editor.selectionHighlight": false,
-    "editor.tabCompletion": "onlySnippets",
-    "editor.wordBasedSuggestions": "off"
-  },
-  "search.quickOpen.includeHistory": false
+  "search.exclude": {
+    "node_modules": true,
+    "dist": true,
+    "build": true,
+    "output": true,
+    ".next": true,
+    ".nuxt": true,
+    "public": true,
+    "*.map": true,
+    "package.json": true,
+    "package-lock.json": true,
+    "yarn.lock": true,
+    "npm-debug.log": true,
+    "yarn-error.log": true,
+    ".env": true,
+    ".env.*": true,
+    ".DS_Store": true,
+    "*.log": true,
+    ".vscode": true,
+    ".idea": true,
+    "*.sublime-*": true,
+    "coverage": true,
+    "*.lcov-report": true,
+    "*.nyc_output": true,
+    "*.bak": true,
+    "*.swp": true,
+    "*.tmp": true,
+    "*.seed": true
+  }
 }
