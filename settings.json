@@ -1,88 +1,111 @@
 {
-    "workbench.colorTheme": "One Dark Pro Night Flat",
-    "editor.fontFamily": "'Fira Code', Menlo, Consolas, 'Courier New', monospace",
-    "editor.fontLigatures": true,
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.sideBar.location": "right",
-    "editor.lightbulb.enabled": "off",
-    "editor.overviewRulerBorder": false,
-    "editor.folding": false,
-    "editor.glyphMargin": false,
-    "editor.minimap.enabled": false,
-    "editor.renderLineHighlight": "line",
-    "editor.lineNumbers": "off",
-    "breadcrumbs.enabled": false,
-    "editor.stickyScroll.scrollWithEditor": false,
-    "workbench.tree.enableStickyScroll": false,
-    "files.exclude": {
-        "node_modules": true,
-        "dist": true,
-        "build": true,
-        "output": true,
-        ".output": true,
-        ".next": true,
-        ".nuxt": true,
-        "*.map": true,
-        "package-lock.json": true,
-        "yarn.lock": true,
-        "npm-debug.log": true,
-        "yarn-error.log": true,
-        ".DS_Store": true,
-        "*.log": true,
-        ".vscode": true,
-        ".idea": true,
-        "*.sublime-*": true,
-        "coverage": true,
-        "*.lcov-report": true,
-        "*.nyc_output": true,
-        "*.bak": true,
-        "*.swp": true,
-        "*.tmp": true,
-        "*.seed": true
-      },
-      "search.exclude": {
-        "node_modules": true,
-        "dist": true,
-        "build": true,
-        "output": true,
-        ".next": true,
-        ".nuxt": true,
-        "*.map": true,
-        "package-lock.json": true,
-        "yarn.lock": true,
-        "npm-debug.log": true,
-        "yarn-error.log": true,
-        ".DS_Store": true,
-        "*.log": true,
-        ".vscode": true,
-        ".idea": true,
-        "*.sublime-*": true,
-        "coverage": true,
-        "*.lcov-report": true,
-        "*.nyc_output": true,
-        "*.bak": true,
-        "*.swp": true,
-        "*.tmp": true,
-        "*.seed": true,
-        "analysis_options.yaml": true,
-        "pubspec.lock": true,
-        "build.ninja": true
-    },
-    "editor.formatOnSave": true,
-    "editor.stickyScroll.enabled": false,
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "git.openRepositoryInParentFolders": "always",
-    "[typescript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[vue]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "diffEditor.ignoreTrimWhitespace": false,
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "off",
-   
+  //========================
+  // Window & UI Appearance
+  //========================
+  "window.zoomLevel": 1,
+  "window.title": "Code",
+
+  //========================
+  // Editor Appearance
+  //========================
+  "editor.glyphMargin": false,
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "workbench.colorTheme": "Default Dark Modern",
+  "editor.lineNumbers": "off",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.guides.indentation": false,
+
+  //========================
+  // Breadcrumbs & Navigation
+  //========================
+  "editor.stickyScroll.enabled": false,
+  "workbench.tree.enableStickyScroll": false,
+
+  //========================
+  // File & Search Exclusions
+  //========================
+  "files.exclude": {
+    "node_modules": true,
+    "dist": true,
+    "build": true,
+    "output": true,
+    ".output": true,
+    ".next": true,
+    ".nuxt": true,
+    "*.map": true,
+    "package-lock.json": true,
+    "yarn.lock": true,
+    "npm-debug.log": true,
+    "yarn-error.log": true,
+    ".DS_Store": true,
+    "*.log": true,
+    ".vscode": true,
+    ".idea": true,
+    "*.sublime-*": true,
+    "coverage": true,
+    "*.lcov-report": true,
+    "*.nyc_output": true,
+    "*.bak": true,
+    "*.swp": true,
+    "*.tmp": true,
+    "*.seed": true
+  },
+  "search.exclude": {
+    "node_modules": true,
+    "dist": true,
+    "build": true,
+    "output": true,
+    ".next": true,
+    ".nuxt": true,
+    "*.map": true,
+    "package-lock.json": true,
+    "yarn.lock": true,
+    "npm-debug.log": true,
+    "yarn-error.log": true,
+    ".DS_Store": true,
+
+    "*.log": true,
+    ".vscode": true,
+    ".idea": true,
+    "*.sublime-*": true,
+    "coverage": true,
+    "*.lcov-report": true,
+    "*.nyc_output": true,
+    "*.bak": true,
+    "*.swp": true,
+    "*.tmp": true,
+    "*.seed": true,
+    "analysis_options.yaml": true,
+    "pubspec.lock": true,
+    "build.ninja": true
+  },
+
+  //========================
+  // Formatting
+  //========================
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnType": true,
+
+  //========================
+  // Language Features
+  //========================
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  //========================
+  // Git
+  //========================
+  "git.openRepositoryInParentFolders": "always"
 }
